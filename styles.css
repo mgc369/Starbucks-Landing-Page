@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Anta;
+    color: #333;
+}
+
+header {
+    margin-top: 50px;
+}
+
+nav {
+    padding-left: 50px;
+}
+
+nav img {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    width: 400px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #13da87;
+    transition: all 0.3s ease;
+}
+
+#sec2 img {
+    width: 100px;
+    height: 150px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 200px;
+}
+
+#giant {
+    position: absolute;
+}
+
+.social {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.social img {
+    width: 23px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 550px;
+    filter: invert(1);
+    transition: all 0.3s ease;
+}
+
+.social img:hover {
+    cursor: pointer;
+    filter: invert(0);
+    transition: all 0.3s ease;
+}
+
+#quarterCircleTopRight {
+    position: absolute;
+    width: 600px; 
+    height: 600px;
+    background: green;
+    border-radius: 600px 0 0;
+    margin-left: 7px;
+}
+
+#imgs {
+    position: absolute;
+    margin-left: -400px;
+    margin-top: 400px;
+}
+
+#imgs img {
+    margin-left: 50px;
+    transition: all 0.5s ease;
+}
+
+#imgs img:hover {
+    cursor: pointer;
+    transform: translateY(-50px);
+    transition: all 0.5s ease;
+}
+
+#sec1 {
+    line-height: 1.3em;
+    font-size: 180%;
+}
+
+button {
+    font-family: Anta;
+    width: 200px;
+    background: #017143;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 70%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 30px;
+}
+
+button:hover {
+    background: #fff;
+    color: #017143;
+    transition: all 0.5s ease;
+}
+
+#sec1 small {
+    font-size: 50%;
+}
+
+#bggr {
+    font-size: 120%;
+    color: #017143;
+}
